@@ -1096,7 +1096,7 @@ class SecurityBase(Node):
 
                     full_outlay_of_1_more, _, _ = self.outlay(q + 1)
 
-                    if full_outlay < amount and full_outlay_of_1_more > amount:
+                    if full_outlay < amount: #and full_outlay_of_1_more > amount:
                         break
 
                 # if not integer positions then we should keep going until
